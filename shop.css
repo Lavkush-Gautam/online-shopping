@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    background-color: #f5f5f6;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #bdb8b8;
+}
+
+.Myntra_home {
+    height: 45px;
+    width: 53px;
+}
+
+
+.action_bar {
+    margin-right: 4%;
+}
+
+.Nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.Nav_bar  a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 3px solid white;
+}
+
+.Nav_bar a:hover {
+    border-bottom: 3px solid #f54e77;
+}
+
+
+
+.Nav_bar a sup {
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+.search_icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+
+}
+
+.search_input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 0 4px;
+
+}
+
+.search_bar {
+    height: 40px;
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+
+}
+
+.action_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Bainer_container {
+    height: 400px;
+    width: 100%;
+    margin: 40px 0;
+}
+.Bainer_container img{
+    width: 100%;
+    height: 99%;
+    object-fit: cover;
+}
+
+#sell
+{
+    text-align: center;
+    color: #f54e77;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: colorAnimate ease-in 0s infinite normal;
+}
+
+
+.items_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.login
+{
+    width: 250px;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#start
+{
+   width:60% ;
+   height: 30px;
+   text-align: center;
+   border-radius: 30px;
+   border: none;
+   margin-top: 10px;
+   background-color: #f54e77;
+   cursor: pointer;
+
+}
+.input
+{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+
+.item_container {
+    margin: 10px;
+}
+
+.item-img {
+    width: 25%;
+}
+
+
+.company_name {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.item_name {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #535766;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.btn {
+    margin-top: 10px;
+    background-color: lightgreen;
+    border: none;
+    width: 80%;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.imgitem
+{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+}
+.action-con
+{
+    text-decoration: none;
+}
+a.action-con:link{
+    color: black;
+}
